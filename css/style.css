@@ -1,0 +1,423 @@
+body{
+    height: 2000px;
+    background-color: #323232;
+    font-family: 'Mukta', sans-serif;
+    
+}
+.container{
+    width:1160px;
+    margin: auto;
+}
+
+.navbar{
+    background-color:#3C3C3C;
+    width: 100%;
+    height: 40px;
+    border-bottom: 1px solid black;
+
+}
+.navbar .brand img{
+    margin-top: 5px
+}
+
+.navbar .brand a {
+    text-decoration: none;
+}
+
+.navbar .brand a span:hover
+{
+    color: 	rgb(137, 180, 245);
+}
+.navbar .brand span{
+    color: whitesmoke;
+   
+}
+
+ ul{
+    list-style-type: none;
+    float:right;
+    color: whitesmoke;
+    
+    
+    
+   
+}
+
+ul a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+ul a li:hover{
+    color: #D97C75;
+    transition: .9s ease;
+    backface-visibility: hidden;
+}
+ ul li{
+    display: inline;
+ padding: 6px;
+}
+.header{
+    width: 100%;
+    height: 190px;
+    background-color: #292929;
+     border-bottom: 1px solid black;
+}
+
+.headercontent{
+    text-align: center;
+   
+    width: 900px;
+    float: right;
+    margin-right: 120px;
+    margin-top: 30px;
+  
+   
+    
+}
+.headercontent a{
+    text-decoration: none;
+    font-size: 50px;
+    color: whitesmoke;
+    
+
+}
+
+.spanhead{
+   
+    width: 900px;
+    height: 40px;
+    color:rgb(158, 154, 154);
+    font-size:  15px;
+    line-height: 35px;
+}
+
+/* .header .aheader{
+    text-decoration: none;
+    color: whitesmoke;
+
+ margin-left: 350px;
+}
+
+.header .spanheader{
+    color:rgb(158, 154, 154);
+   margin-left: 350px;
+} */
+
+
+.nav2{
+    background-color: 	#3C3C3C;
+    width: 100%;
+    height:70px;
+}
+
+.nav2 .secul{
+    list-style-type: none;
+    float:right;
+    color: rgb(158, 154, 154);
+    margin-top: 25px;
+}
+
+.nav2 .secul a{
+    text-decoration: none;
+    color: rgb(158, 154, 154);
+}
+
+.nav2 .secul li{
+    display: inline;
+ padding: 15px;
+
+ 
+
+ 
+}
+
+
+
+.lastnav{
+    background-color: #D97C75;
+    width: 100%;
+    height: 40px;
+}
+
+.lastnav .thirdul{
+    list-style-type: none;
+   margin-right: 430px;
+    color: whitesmoke;
+}
+.lastnav .thirdul a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.lastnav .thirdul a:hover{
+    color: whitesmoke;
+    transition: .9s ease;
+    backface-visibility: hidden;
+}
+
+.content{
+    background-color:#323232;
+    height: 400px;
+ 
+}
+.content .advhere{
+  
+  text-align: center;
+  margin-top: 150px;
+  color: #D97C75
+}
+
+.content .pic2:hover{
+    background-color: #D97C75;
+  
+}
+
+.content .pic2{
+    margin-top: 80px;
+     margin-left: 25px;
+     margin-bottom:30px;
+    height: 300px;
+    width: 350px;
+    background-color:#232323;
+    float: left;
+    position: relative;
+   ;
+   
+}
+
+.add{
+    width: 25px;
+    height: 25px;
+    border-radius: 0% 0% 30% 0%  ;
+    background-color: #D97C75;  position: absolute;
+    left: 0%;
+    top: 0%;
+    
+}
+.addtext{
+    color: whitesmoke;
+    font-size: 11px;
+    text-align: center;
+    margin-bottom: 390px;
+}
+ .pic1{
+     margin-top: 80px;
+     margin-left: 25px;
+     margin-bottom:30px;
+    height: 300px;
+    width: 350px;
+    background-color:#232323;
+    float: left;
+    position: relative;
+
+    
+
+}
+
+.parg{
+    width: 650px;
+    height: 70px;
+    margin-left: 25px;
+    background-color:#323232 ;
+    color: 	#B6AD66;
+    font-size: 30px;
+  
+}
+
+.seccontent{
+    background-color:#323232;
+    height: 1250px;;
+}
+
+.seccontent .advertise .pictwo{
+    width: 360px;
+    height: 375px;
+    background-color: 	#292929;
+    float: left;
+ margin-top: 25px;
+    margin-left: 20px;
+    text-align: center;
+    color: white;
+    box-shadow: 4px 4px black;
+}
+
+.opac{
+    position: relative;
+    width: 100%;
+}
+
+.imageopac{
+    opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+.middle{
+    /* transition: .5s ease; */
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.sarch{
+    width: 50px;
+    height: 50px;
+    background-color:  #D97C75;
+    border-radius: 50%;
+}
+.sarch img{
+   margin-right: 5px;
+   margin-top: 4px;
+   margin-left: 4px;
+}
+
+/* .seccontent .advertise .pictwo a img:hover{
+    opacity: 0.5;
+} */
+
+.opac:hover .imageopac {
+    opacity: 0.5;
+  }
+  
+  
+.opac:hover .middle {
+    opacity: 1;
+  }
+
+/* .seccontent .advertise .pictwo  .searchicon{
+    width: 50px;
+    height: 50px;
+    background-color:  #D97C75;
+    border-radius: 50%;
+    
+  
+ 
+} */
+
+.seccontent .advertise .pictwo .caption{
+    text-align: center;
+    color: rgb(158, 154, 154);
+    line-height: 5px;
+      
+}
+
+.pictwo h4{
+    color: #D97C75;
+}
+
+/* .seccontent .advertise .pictwo .caption{
+    background-color: sandybrown;
+    width: 360px;
+    height: 100px;
+    margin-top: 275px;
+} */
+
+
+.btns{
+  background-color: #323232;
+ 
+  height: 50px;  
+  width:1150px;
+  margin-bottom: 30px;
+ 
+  
+}
+
+.btns .arow{
+    width: 50px;
+    height: 50px;
+  
+ 
+    float: right;
+}
+
+.btns .arow img{
+    opacity: 0.2
+}
+.numb{
+    background: none;
+    width: 30px;
+    height: 40px;
+    font-size: 25px;
+  
+    border: 1px solid #3C3C3C;
+    margin-left: 10px;
+}
+
+.numb2{
+    background: none;
+    width: 40px;
+    height: 40px;
+    font-size: 25px;
+    border: 1px solid #3C3C3C;
+    margin-left: 15px;
+}
+.designbtn{
+    background: none;
+    width: 30px;
+    height: 40px;
+    font-size: 25px;
+    font-weight: bold;
+    border: 1px solid #3C3C3C;
+    margin-left: 15px;
+}
+
+.afterbt{
+    background-color: #323232;
+    height: 35px;
+    width: 1160px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    color: rgb(158, 154, 154);
+    font-size: 20px;
+}
+
+.afterbt a{
+    text-decoration: none;
+    color: #D97C75
+}
+
+
+.footer{
+    height: 80px;
+    width: 100%;background-color:	#232323;
+}
+
+
+.copyright{
+    text-align: center;
+    float: left;
+    color: rgb(109, 108, 108);
+    font-size: 20px;
+  
+
+ 
+}
+
+.icons{
+    /* background-color: yellow; */
+    width: 160px;
+    height: 50px;
+    float: right;
+    margin-top: 20px;
+}
+.icons img{
+    width: 20px;
+    height: 20px;
+    margin-top:20px;
+    float: left;
+}
+
+.icons span{
+    font-size: 15px;
+    color: rgb(158, 154, 154);
+    float: left;
+    margin-top:22px;
+}
